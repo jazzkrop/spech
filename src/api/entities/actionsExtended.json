@@ -1,0 +1,21 @@
+[
+  { "origin": "add", "synonyms": [
+    "add",
+    "append",
+    "supply",
+    "insert",
+    "infix",
+    "enter",
+    "introduce",
+    "enclose",
+    "inclose",
+    "create",
+    "make"
+  ] },
+  {
+    "origin": "edit",
+    "synonyms": ["edit", "cut", "blue-pencil", "redact"]
+  },
+  { "origin": "update" },
+  { "origin": "delete", "synonyms": ["delete", "cancel", "remove", "take", "withdraw", "transfer"] }
+]

@@ -1,0 +1,28 @@
+{
+  "name": "qodeai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nlpjs/ner": "^4.22.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-status": "^1.5.0",
+    "joi": "^17.4.2",
+    "keyword-extractor": "0.0.20",
+    "node-json2html": "^2.1.0",
+    "node-nlp": "^4.22.1",
+    "nodemon": "^2.0.12",
+    "synonyms": "^1.0.1",
+    "typo-js": "^1.2.0",
+    "winston": "^3.3.3"
+  }
+}

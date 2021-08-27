@@ -1,0 +1,9 @@
+{
+  "add": "add",
+  "insert": "insert",
+  "create": "create",
+  "edit": "edit",
+  "update": "update",
+  "delete": "delete",
+  "remove": "remove"
+}

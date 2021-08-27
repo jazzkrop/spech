@@ -1,0 +1,3972 @@
+{
+  "settings": {
+    "languages": [
+      "en"
+    ],
+    "forceNER": true,
+    "autoSave": false,
+    "tag": "nlp",
+    "threshold": 0.5,
+    "autoLoad": true,
+    "modelFileName": "model.nlp",
+    "calculateSentiment": true
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager"
+    },
+    "locales": [
+      "en"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "en": {
+        "settings": {
+          "locale": "en",
+          "trainByDomain": false,
+          "tag": "domain-manager-en",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {
+          "add,contain": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "add,row": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "add,column": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "add,button": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "add,input": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "add,imag": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "add,id": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "contain,insert": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "insert,row": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "column,insert": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "button,insert": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "input,insert": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "imag,insert": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "id,insert": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "contain,creat": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "creat,row": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "column,creat": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "button,creat": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "creat,input": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "creat,imag": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "creat,id": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "contain,edit": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "edit,row": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "column,edit": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "button,edit": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "edit,input": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "edit,imag": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "edit,id": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "contain,updat": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "row,updat": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "column,updat": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "button,updat": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "input,updat": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "imag,updat": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "id,updat": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "1,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "2,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "3,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "4,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "5,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "6,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "7,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "8,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "9,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "10,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "11,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "12,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "13,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "14,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "15,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "16,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "17,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "18,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "19,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "20,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "21,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "22,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "23,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "24,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "25,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "26,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "27,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "28,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "29,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "30,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "31,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "32,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "33,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "34,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "35,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "36,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "37,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "38,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "39,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "40,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "41,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "42,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "43,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "44,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "45,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "46,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "47,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "48,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "49,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "50,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "51,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "52,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "53,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "54,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "55,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "56,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "57,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "58,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "59,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "60,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "61,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "62,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "63,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "64,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "65,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "66,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "67,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "68,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "69,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "70,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "71,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "72,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "73,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "74,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "75,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "76,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "77,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "78,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "79,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "80,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "81,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "82,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "83,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "84,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "85,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "86,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "87,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "88,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "89,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "90,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "91,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "92,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "93,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "94,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "95,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "96,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "97,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "98,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "99,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "100,delet": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "1,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "2,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "3,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "4,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "5,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "6,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "7,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "8,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "9,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "10,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "11,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "12,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "13,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "14,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "15,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "16,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "17,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "18,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "19,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "20,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "21,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "22,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "23,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "24,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "25,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "26,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "27,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "28,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "29,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "30,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "31,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "32,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "33,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "34,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "35,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "36,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "37,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "38,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "39,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "40,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "41,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "42,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "43,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "44,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "45,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "46,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "47,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "48,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "49,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "50,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "51,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "52,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "53,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "54,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "55,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "56,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "57,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "58,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "59,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "60,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "61,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "62,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "63,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "64,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "65,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "66,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "67,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "68,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "69,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "70,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "71,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "72,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "73,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "74,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "75,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "76,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "77,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "78,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "79,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "80,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "81,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "82,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "83,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "84,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "85,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "86,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "87,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "88,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "89,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "90,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "91,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "92,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "93,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "94,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "95,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "96,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "97,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "98,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "99,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          },
+          "100,remov": {
+            "intent": "simpleAction",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "simpleAction": "default"
+        },
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "add container",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "add row",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "add column",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "add button",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "add input",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "add image",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "add id",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "insert container",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "insert row",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "insert column",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "insert button",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "insert input",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "insert image",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "insert id",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "create container",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "create row",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "create column",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "create button",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "create input",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "create image",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "create id",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "edit container",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "edit row",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "edit column",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "edit button",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "edit input",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "edit image",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "edit id",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "update container",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "update row",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "update column",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "update button",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "update input",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "update image",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "update id",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 1",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 2",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 3",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 4",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 5",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 6",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 7",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 8",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 9",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 10",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 11",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 12",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 13",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 14",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 15",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 16",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 17",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 18",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 19",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 20",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 21",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 22",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 23",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 24",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 25",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 26",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 27",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 28",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 29",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 30",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 31",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 32",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 33",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 34",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 35",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 36",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 37",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 38",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 39",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 40",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 41",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 42",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 43",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 44",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 45",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 46",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 47",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 48",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 49",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 50",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 51",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 52",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 53",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 54",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 55",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 56",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 57",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 58",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 59",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 60",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 61",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 62",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 63",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 64",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 65",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 66",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 67",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 68",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 69",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 70",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 71",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 72",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 73",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 74",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 75",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 76",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 77",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 78",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 79",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 80",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 81",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 82",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 83",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 84",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 85",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 86",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 87",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 88",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 89",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 90",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 91",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 92",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 93",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 94",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 95",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 96",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 97",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 98",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 99",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "delete 100",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 1",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 2",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 3",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 4",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 5",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 6",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 7",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 8",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 9",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 10",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 11",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 12",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 13",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 14",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 15",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 16",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 17",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 18",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 19",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 20",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 21",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 22",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 23",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 24",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 25",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 26",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 27",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 28",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 29",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 30",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 31",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 32",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 33",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 34",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 35",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 36",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 37",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 38",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 39",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 40",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 41",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 42",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 43",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 44",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 45",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 46",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 47",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 48",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 49",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 50",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 51",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 52",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 53",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 54",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 55",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 56",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 57",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 58",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 59",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 60",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 61",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 62",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 63",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 64",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 65",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 66",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 67",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 68",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 69",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 70",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 71",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 72",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 73",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 74",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 75",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 76",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 77",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 78",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 79",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 80",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 81",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 82",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 83",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 84",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 85",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 86",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 87",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 88",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 89",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 90",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 91",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 92",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 93",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 94",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 95",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 96",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 97",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 98",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 99",
+            "intent": "simpleAction"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove 100",
+            "intent": "simpleAction"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "en",
+              "tag": "nlu-en",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            },
+            "features": {
+              "1": 1,
+              "2": 1,
+              "3": 1,
+              "4": 1,
+              "5": 1,
+              "6": 1,
+              "7": 1,
+              "8": 1,
+              "9": 1,
+              "10": 1,
+              "11": 1,
+              "12": 1,
+              "13": 1,
+              "14": 1,
+              "15": 1,
+              "16": 1,
+              "17": 1,
+              "18": 1,
+              "19": 1,
+              "20": 1,
+              "21": 1,
+              "22": 1,
+              "23": 1,
+              "24": 1,
+              "25": 1,
+              "26": 1,
+              "27": 1,
+              "28": 1,
+              "29": 1,
+              "30": 1,
+              "31": 1,
+              "32": 1,
+              "33": 1,
+              "34": 1,
+              "35": 1,
+              "36": 1,
+              "37": 1,
+              "38": 1,
+              "39": 1,
+              "40": 1,
+              "41": 1,
+              "42": 1,
+              "43": 1,
+              "44": 1,
+              "45": 1,
+              "46": 1,
+              "47": 1,
+              "48": 1,
+              "49": 1,
+              "50": 1,
+              "51": 1,
+              "52": 1,
+              "53": 1,
+              "54": 1,
+              "55": 1,
+              "56": 1,
+              "57": 1,
+              "58": 1,
+              "59": 1,
+              "60": 1,
+              "61": 1,
+              "62": 1,
+              "63": 1,
+              "64": 1,
+              "65": 1,
+              "66": 1,
+              "67": 1,
+              "68": 1,
+              "69": 1,
+              "70": 1,
+              "71": 1,
+              "72": 1,
+              "73": 1,
+              "74": 1,
+              "75": 1,
+              "76": 1,
+              "77": 1,
+              "78": 1,
+              "79": 1,
+              "80": 1,
+              "81": 1,
+              "82": 1,
+              "83": 1,
+              "84": 1,
+              "85": 1,
+              "86": 1,
+              "87": 1,
+              "88": 1,
+              "89": 1,
+              "90": 1,
+              "91": 1,
+              "92": 1,
+              "93": 1,
+              "94": 1,
+              "95": 1,
+              "96": 1,
+              "97": 1,
+              "98": 1,
+              "99": 1,
+              "100": 1,
+              "add": 1,
+              "contain": 1,
+              "row": 1,
+              "column": 1,
+              "button": 1,
+              "input": 1,
+              "imag": 1,
+              "id": 1,
+              "insert": 1,
+              "creat": 1,
+              "edit": 1,
+              "updat": 1,
+              "delet": 1,
+              "remov": 1
+            },
+            "intents": {
+              "simpleAction": 1
+            },
+            "intentFeatures": {
+              "simpleAction": {
+                "1": 1,
+                "2": 1,
+                "3": 1,
+                "4": 1,
+                "5": 1,
+                "6": 1,
+                "7": 1,
+                "8": 1,
+                "9": 1,
+                "10": 1,
+                "11": 1,
+                "12": 1,
+                "13": 1,
+                "14": 1,
+                "15": 1,
+                "16": 1,
+                "17": 1,
+                "18": 1,
+                "19": 1,
+                "20": 1,
+                "21": 1,
+                "22": 1,
+                "23": 1,
+                "24": 1,
+                "25": 1,
+                "26": 1,
+                "27": 1,
+                "28": 1,
+                "29": 1,
+                "30": 1,
+                "31": 1,
+                "32": 1,
+                "33": 1,
+                "34": 1,
+                "35": 1,
+                "36": 1,
+                "37": 1,
+                "38": 1,
+                "39": 1,
+                "40": 1,
+                "41": 1,
+                "42": 1,
+                "43": 1,
+                "44": 1,
+                "45": 1,
+                "46": 1,
+                "47": 1,
+                "48": 1,
+                "49": 1,
+                "50": 1,
+                "51": 1,
+                "52": 1,
+                "53": 1,
+                "54": 1,
+                "55": 1,
+                "56": 1,
+                "57": 1,
+                "58": 1,
+                "59": 1,
+                "60": 1,
+                "61": 1,
+                "62": 1,
+                "63": 1,
+                "64": 1,
+                "65": 1,
+                "66": 1,
+                "67": 1,
+                "68": 1,
+                "69": 1,
+                "70": 1,
+                "71": 1,
+                "72": 1,
+                "73": 1,
+                "74": 1,
+                "75": 1,
+                "76": 1,
+                "77": 1,
+                "78": 1,
+                "79": 1,
+                "80": 1,
+                "81": 1,
+                "82": 1,
+                "83": 1,
+                "84": 1,
+                "85": 1,
+                "86": 1,
+                "87": 1,
+                "88": 1,
+                "89": 1,
+                "90": 1,
+                "91": 1,
+                "92": 1,
+                "93": 1,
+                "94": 1,
+                "95": 1,
+                "96": 1,
+                "97": 1,
+                "98": 1,
+                "99": 1,
+                "100": 1,
+                "add": 1,
+                "contain": 1,
+                "row": 1,
+                "column": 1,
+                "button": 1,
+                "input": 1,
+                "imag": 1,
+                "id": 1,
+                "insert": 1,
+                "creat": 1,
+                "edit": 1,
+                "updat": 1,
+                "delet": 1,
+                "remov": 1
+              }
+            },
+            "featuresToIntent": {
+              "1": [
+                "simpleAction"
+              ],
+              "2": [
+                "simpleAction"
+              ],
+              "3": [
+                "simpleAction"
+              ],
+              "4": [
+                "simpleAction"
+              ],
+              "5": [
+                "simpleAction"
+              ],
+              "6": [
+                "simpleAction"
+              ],
+              "7": [
+                "simpleAction"
+              ],
+              "8": [
+                "simpleAction"
+              ],
+              "9": [
+                "simpleAction"
+              ],
+              "10": [
+                "simpleAction"
+              ],
+              "11": [
+                "simpleAction"
+              ],
+              "12": [
+                "simpleAction"
+              ],
+              "13": [
+                "simpleAction"
+              ],
+              "14": [
+                "simpleAction"
+              ],
+              "15": [
+                "simpleAction"
+              ],
+              "16": [
+                "simpleAction"
+              ],
+              "17": [
+                "simpleAction"
+              ],
+              "18": [
+                "simpleAction"
+              ],
+              "19": [
+                "simpleAction"
+              ],
+              "20": [
+                "simpleAction"
+              ],
+              "21": [
+                "simpleAction"
+              ],
+              "22": [
+                "simpleAction"
+              ],
+              "23": [
+                "simpleAction"
+              ],
+              "24": [
+                "simpleAction"
+              ],
+              "25": [
+                "simpleAction"
+              ],
+              "26": [
+                "simpleAction"
+              ],
+              "27": [
+                "simpleAction"
+              ],
+              "28": [
+                "simpleAction"
+              ],
+              "29": [
+                "simpleAction"
+              ],
+              "30": [
+                "simpleAction"
+              ],
+              "31": [
+                "simpleAction"
+              ],
+              "32": [
+                "simpleAction"
+              ],
+              "33": [
+                "simpleAction"
+              ],
+              "34": [
+                "simpleAction"
+              ],
+              "35": [
+                "simpleAction"
+              ],
+              "36": [
+                "simpleAction"
+              ],
+              "37": [
+                "simpleAction"
+              ],
+              "38": [
+                "simpleAction"
+              ],
+              "39": [
+                "simpleAction"
+              ],
+              "40": [
+                "simpleAction"
+              ],
+              "41": [
+                "simpleAction"
+              ],
+              "42": [
+                "simpleAction"
+              ],
+              "43": [
+                "simpleAction"
+              ],
+              "44": [
+                "simpleAction"
+              ],
+              "45": [
+                "simpleAction"
+              ],
+              "46": [
+                "simpleAction"
+              ],
+              "47": [
+                "simpleAction"
+              ],
+              "48": [
+                "simpleAction"
+              ],
+              "49": [
+                "simpleAction"
+              ],
+              "50": [
+                "simpleAction"
+              ],
+              "51": [
+                "simpleAction"
+              ],
+              "52": [
+                "simpleAction"
+              ],
+              "53": [
+                "simpleAction"
+              ],
+              "54": [
+                "simpleAction"
+              ],
+              "55": [
+                "simpleAction"
+              ],
+              "56": [
+                "simpleAction"
+              ],
+              "57": [
+                "simpleAction"
+              ],
+              "58": [
+                "simpleAction"
+              ],
+              "59": [
+                "simpleAction"
+              ],
+              "60": [
+                "simpleAction"
+              ],
+              "61": [
+                "simpleAction"
+              ],
+              "62": [
+                "simpleAction"
+              ],
+              "63": [
+                "simpleAction"
+              ],
+              "64": [
+                "simpleAction"
+              ],
+              "65": [
+                "simpleAction"
+              ],
+              "66": [
+                "simpleAction"
+              ],
+              "67": [
+                "simpleAction"
+              ],
+              "68": [
+                "simpleAction"
+              ],
+              "69": [
+                "simpleAction"
+              ],
+              "70": [
+                "simpleAction"
+              ],
+              "71": [
+                "simpleAction"
+              ],
+              "72": [
+                "simpleAction"
+              ],
+              "73": [
+                "simpleAction"
+              ],
+              "74": [
+                "simpleAction"
+              ],
+              "75": [
+                "simpleAction"
+              ],
+              "76": [
+                "simpleAction"
+              ],
+              "77": [
+                "simpleAction"
+              ],
+              "78": [
+                "simpleAction"
+              ],
+              "79": [
+                "simpleAction"
+              ],
+              "80": [
+                "simpleAction"
+              ],
+              "81": [
+                "simpleAction"
+              ],
+              "82": [
+                "simpleAction"
+              ],
+              "83": [
+                "simpleAction"
+              ],
+              "84": [
+                "simpleAction"
+              ],
+              "85": [
+                "simpleAction"
+              ],
+              "86": [
+                "simpleAction"
+              ],
+              "87": [
+                "simpleAction"
+              ],
+              "88": [
+                "simpleAction"
+              ],
+              "89": [
+                "simpleAction"
+              ],
+              "90": [
+                "simpleAction"
+              ],
+              "91": [
+                "simpleAction"
+              ],
+              "92": [
+                "simpleAction"
+              ],
+              "93": [
+                "simpleAction"
+              ],
+              "94": [
+                "simpleAction"
+              ],
+              "95": [
+                "simpleAction"
+              ],
+              "96": [
+                "simpleAction"
+              ],
+              "97": [
+                "simpleAction"
+              ],
+              "98": [
+                "simpleAction"
+              ],
+              "99": [
+                "simpleAction"
+              ],
+              "100": [
+                "simpleAction"
+              ],
+              "add": [
+                "simpleAction"
+              ],
+              "contain": [
+                "simpleAction"
+              ],
+              "row": [
+                "simpleAction"
+              ],
+              "column": [
+                "simpleAction"
+              ],
+              "button": [
+                "simpleAction"
+              ],
+              "input": [
+                "simpleAction"
+              ],
+              "imag": [
+                "simpleAction"
+              ],
+              "id": [
+                "simpleAction"
+              ],
+              "insert": [
+                "simpleAction"
+              ],
+              "creat": [
+                "simpleAction"
+              ],
+              "edit": [
+                "simpleAction"
+              ],
+              "updat": [
+                "simpleAction"
+              ],
+              "delet": [
+                "simpleAction"
+              ],
+              "remov": [
+                "simpleAction"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "en",
+                "tag": "nlu-en",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "add",
+                "contain",
+                "row",
+                "column",
+                "button",
+                "input",
+                "imag",
+                "id",
+                "insert",
+                "creat",
+                "edit",
+                "updat",
+                "1",
+                "delet",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46",
+                "47",
+                "48",
+                "49",
+                "50",
+                "51",
+                "52",
+                "53",
+                "54",
+                "55",
+                "56",
+                "57",
+                "58",
+                "59",
+                "60",
+                "61",
+                "62",
+                "63",
+                "64",
+                "65",
+                "66",
+                "67",
+                "68",
+                "69",
+                "70",
+                "71",
+                "72",
+                "73",
+                "74",
+                "75",
+                "76",
+                "77",
+                "78",
+                "79",
+                "80",
+                "81",
+                "82",
+                "83",
+                "84",
+                "85",
+                "86",
+                "87",
+                "88",
+                "89",
+                "90",
+                "91",
+                "92",
+                "93",
+                "94",
+                "95",
+                "96",
+                "97",
+                "98",
+                "99",
+                "100",
+                "remov"
+              ],
+              "intents": [
+                "simpleAction"
+              ],
+              "perceptrons": [
+                [
+                  2.3827908039093018,
+                  1.6927541494369507,
+                  1.7316046953201294,
+                  1.7294291257858276,
+                  1.7278491258621216,
+                  1.7249815464019775,
+                  1.7198553085327148,
+                  1.7119593620300293,
+                  2.4043612480163574,
+                  2.41817569732666,
+                  2.4215939044952393,
+                  2.407870292663574,
+                  0.4290662705898285,
+                  4.133922100067139,
+                  0.42817503213882446,
+                  0.4252941906452179,
+                  0.41987961530685425,
+                  0.41181379556655884,
+                  0.40126076340675354,
+                  0.3885422348976135,
+                  0.37405040860176086,
+                  0.35819119215011597,
+                  0.3413509428501129,
+                  0.323879212141037,
+                  0.30608129501342773,
+                  0.2882166802883148,
+                  0.2705008387565613,
+                  0.25310882925987244,
+                  0.23617973923683167,
+                  0.21982119977474213,
+                  0.20411349833011627,
+                  0.18911385536193848,
+                  0.17486010491847992,
+                  0.1613737791776657,
+                  0.14866307377815247,
+                  0.1367252767086029,
+                  0.12554901838302612,
+                  0.11511599272489548,
+                  0.10540260374546051,
+                  0.09638138860464096,
+                  0.08802191913127899,
+                  0.08029182255268097,
+                  0.07315768301486969,
+                  0.06658560037612915,
+                  0.06054151430726051,
+                  0.0549919530749321,
+                  0.04990413412451744,
+                  0.04524622857570648,
+                  0.040987636893987656,
+                  0.03709903731942177,
+                  0.03355260565876961,
+                  0.030321907252073288,
+                  0.02738211117684841,
+                  0.024709660559892654,
+                  0.022282784804701805,
+                  0.020080989226698875,
+                  0.018085166811943054,
+                  0.016277607530355453,
+                  0.014641886577010155,
+                  0.013162990100681782,
+                  0.011826809495687485,
+                  0.010620505549013615,
+                  0.00953221321105957,
+                  0.008551064878702164,
+                  0.007667032536119223,
+                  0.006871049292385578,
+                  0.006154876668006182,
+                  0.0055108387023210526,
+                  0.004931987728923559,
+                  0.004412002395838499,
+                  0.003945167642086744,
+                  0.003526299959048629,
+                  0.0031506679952144623,
+                  0.002813903847709298,
+                  0.0025121602229774,
+                  0.002241975162178278,
+                  0.002000155160203576,
+                  0.0017837597988545895,
+                  0.001590290921740234,
+                  0.0014172580558806658,
+                  0.001262630452401936,
+                  0.0011245616478845477,
+                  0.0010012430138885975,
+                  0.0008911482873372734,
+                  0.000792954582720995,
+                  0.0007053755107335746,
+                  0.0006272582104429603,
+                  0.0005576201947405934,
+                  0.0004955804906785488,
+                  0.0004403743369039148,
+                  0.0003911163075827062,
+                  0.0003473004326224327,
+                  0.0003083183546550572,
+                  0.0002736259193625301,
+                  0.00024281785590574145,
+                  0.000215361884329468,
+                  0.00019098210032097995,
+                  0.00016932013386394829,
+                  0.00015005908790044487,
+                  0.00013300411228556186,
+                  0.00011784170783357695,
+                  0.00010437750461278483,
+                  0.0000924923806451261,
+                  0.00008189613436115906,
+                  0.00007255603850353509,
+                  0.00006418352131731808,
+                  0.00005677098670275882,
+                  0.000050238526455359533,
+                  0.00004447017636266537,
+                  0.00003933626794605516,
+                  0.00003479606311884709,
+                  0.000030758594220969826,
+                  0.000027186473744222894,
+                  4.133395195007324,
+                  10.152219540741488
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "en",
+        "add container"
+      ],
+      [
+        "en",
+        "add row"
+      ],
+      [
+        "en",
+        "add column"
+      ],
+      [
+        "en",
+        "add button"
+      ],
+      [
+        "en",
+        "add input"
+      ],
+      [
+        "en",
+        "add image"
+      ],
+      [
+        "en",
+        "add id"
+      ],
+      [
+        "en",
+        "insert container"
+      ],
+      [
+        "en",
+        "insert row"
+      ],
+      [
+        "en",
+        "insert column"
+      ],
+      [
+        "en",
+        "insert button"
+      ],
+      [
+        "en",
+        "insert input"
+      ],
+      [
+        "en",
+        "insert image"
+      ],
+      [
+        "en",
+        "insert id"
+      ],
+      [
+        "en",
+        "create container"
+      ],
+      [
+        "en",
+        "create row"
+      ],
+      [
+        "en",
+        "create column"
+      ],
+      [
+        "en",
+        "create button"
+      ],
+      [
+        "en",
+        "create input"
+      ],
+      [
+        "en",
+        "create image"
+      ],
+      [
+        "en",
+        "create id"
+      ],
+      [
+        "en",
+        "edit container"
+      ],
+      [
+        "en",
+        "edit row"
+      ],
+      [
+        "en",
+        "edit column"
+      ],
+      [
+        "en",
+        "edit button"
+      ],
+      [
+        "en",
+        "edit input"
+      ],
+      [
+        "en",
+        "edit image"
+      ],
+      [
+        "en",
+        "edit id"
+      ],
+      [
+        "en",
+        "update container"
+      ],
+      [
+        "en",
+        "update row"
+      ],
+      [
+        "en",
+        "update column"
+      ],
+      [
+        "en",
+        "update button"
+      ],
+      [
+        "en",
+        "update input"
+      ],
+      [
+        "en",
+        "update image"
+      ],
+      [
+        "en",
+        "update id"
+      ],
+      [
+        "en",
+        "delete 1"
+      ],
+      [
+        "en",
+        "delete 2"
+      ],
+      [
+        "en",
+        "delete 3"
+      ],
+      [
+        "en",
+        "delete 4"
+      ],
+      [
+        "en",
+        "delete 5"
+      ],
+      [
+        "en",
+        "delete 6"
+      ],
+      [
+        "en",
+        "delete 7"
+      ],
+      [
+        "en",
+        "delete 8"
+      ],
+      [
+        "en",
+        "delete 9"
+      ],
+      [
+        "en",
+        "delete 10"
+      ],
+      [
+        "en",
+        "delete 11"
+      ],
+      [
+        "en",
+        "delete 12"
+      ],
+      [
+        "en",
+        "delete 13"
+      ],
+      [
+        "en",
+        "delete 14"
+      ],
+      [
+        "en",
+        "delete 15"
+      ],
+      [
+        "en",
+        "delete 16"
+      ],
+      [
+        "en",
+        "delete 17"
+      ],
+      [
+        "en",
+        "delete 18"
+      ],
+      [
+        "en",
+        "delete 19"
+      ],
+      [
+        "en",
+        "delete 20"
+      ],
+      [
+        "en",
+        "delete 21"
+      ],
+      [
+        "en",
+        "delete 22"
+      ],
+      [
+        "en",
+        "delete 23"
+      ],
+      [
+        "en",
+        "delete 24"
+      ],
+      [
+        "en",
+        "delete 25"
+      ],
+      [
+        "en",
+        "delete 26"
+      ],
+      [
+        "en",
+        "delete 27"
+      ],
+      [
+        "en",
+        "delete 28"
+      ],
+      [
+        "en",
+        "delete 29"
+      ],
+      [
+        "en",
+        "delete 30"
+      ],
+      [
+        "en",
+        "delete 31"
+      ],
+      [
+        "en",
+        "delete 32"
+      ],
+      [
+        "en",
+        "delete 33"
+      ],
+      [
+        "en",
+        "delete 34"
+      ],
+      [
+        "en",
+        "delete 35"
+      ],
+      [
+        "en",
+        "delete 36"
+      ],
+      [
+        "en",
+        "delete 37"
+      ],
+      [
+        "en",
+        "delete 38"
+      ],
+      [
+        "en",
+        "delete 39"
+      ],
+      [
+        "en",
+        "delete 40"
+      ],
+      [
+        "en",
+        "delete 41"
+      ],
+      [
+        "en",
+        "delete 42"
+      ],
+      [
+        "en",
+        "delete 43"
+      ],
+      [
+        "en",
+        "delete 44"
+      ],
+      [
+        "en",
+        "delete 45"
+      ],
+      [
+        "en",
+        "delete 46"
+      ],
+      [
+        "en",
+        "delete 47"
+      ],
+      [
+        "en",
+        "delete 48"
+      ],
+      [
+        "en",
+        "delete 49"
+      ],
+      [
+        "en",
+        "delete 50"
+      ],
+      [
+        "en",
+        "delete 51"
+      ],
+      [
+        "en",
+        "delete 52"
+      ],
+      [
+        "en",
+        "delete 53"
+      ],
+      [
+        "en",
+        "delete 54"
+      ],
+      [
+        "en",
+        "delete 55"
+      ],
+      [
+        "en",
+        "delete 56"
+      ],
+      [
+        "en",
+        "delete 57"
+      ],
+      [
+        "en",
+        "delete 58"
+      ],
+      [
+        "en",
+        "delete 59"
+      ],
+      [
+        "en",
+        "delete 60"
+      ],
+      [
+        "en",
+        "delete 61"
+      ],
+      [
+        "en",
+        "delete 62"
+      ],
+      [
+        "en",
+        "delete 63"
+      ],
+      [
+        "en",
+        "delete 64"
+      ],
+      [
+        "en",
+        "delete 65"
+      ],
+      [
+        "en",
+        "delete 66"
+      ],
+      [
+        "en",
+        "delete 67"
+      ],
+      [
+        "en",
+        "delete 68"
+      ],
+      [
+        "en",
+        "delete 69"
+      ],
+      [
+        "en",
+        "delete 70"
+      ],
+      [
+        "en",
+        "delete 71"
+      ],
+      [
+        "en",
+        "delete 72"
+      ],
+      [
+        "en",
+        "delete 73"
+      ],
+      [
+        "en",
+        "delete 74"
+      ],
+      [
+        "en",
+        "delete 75"
+      ],
+      [
+        "en",
+        "delete 76"
+      ],
+      [
+        "en",
+        "delete 77"
+      ],
+      [
+        "en",
+        "delete 78"
+      ],
+      [
+        "en",
+        "delete 79"
+      ],
+      [
+        "en",
+        "delete 80"
+      ],
+      [
+        "en",
+        "delete 81"
+      ],
+      [
+        "en",
+        "delete 82"
+      ],
+      [
+        "en",
+        "delete 83"
+      ],
+      [
+        "en",
+        "delete 84"
+      ],
+      [
+        "en",
+        "delete 85"
+      ],
+      [
+        "en",
+        "delete 86"
+      ],
+      [
+        "en",
+        "delete 87"
+      ],
+      [
+        "en",
+        "delete 88"
+      ],
+      [
+        "en",
+        "delete 89"
+      ],
+      [
+        "en",
+        "delete 90"
+      ],
+      [
+        "en",
+        "delete 91"
+      ],
+      [
+        "en",
+        "delete 92"
+      ],
+      [
+        "en",
+        "delete 93"
+      ],
+      [
+        "en",
+        "delete 94"
+      ],
+      [
+        "en",
+        "delete 95"
+      ],
+      [
+        "en",
+        "delete 96"
+      ],
+      [
+        "en",
+        "delete 97"
+      ],
+      [
+        "en",
+        "delete 98"
+      ],
+      [
+        "en",
+        "delete 99"
+      ],
+      [
+        "en",
+        "delete 100"
+      ],
+      [
+        "en",
+        "remove 1"
+      ],
+      [
+        "en",
+        "remove 2"
+      ],
+      [
+        "en",
+        "remove 3"
+      ],
+      [
+        "en",
+        "remove 4"
+      ],
+      [
+        "en",
+        "remove 5"
+      ],
+      [
+        "en",
+        "remove 6"
+      ],
+      [
+        "en",
+        "remove 7"
+      ],
+      [
+        "en",
+        "remove 8"
+      ],
+      [
+        "en",
+        "remove 9"
+      ],
+      [
+        "en",
+        "remove 10"
+      ],
+      [
+        "en",
+        "remove 11"
+      ],
+      [
+        "en",
+        "remove 12"
+      ],
+      [
+        "en",
+        "remove 13"
+      ],
+      [
+        "en",
+        "remove 14"
+      ],
+      [
+        "en",
+        "remove 15"
+      ],
+      [
+        "en",
+        "remove 16"
+      ],
+      [
+        "en",
+        "remove 17"
+      ],
+      [
+        "en",
+        "remove 18"
+      ],
+      [
+        "en",
+        "remove 19"
+      ],
+      [
+        "en",
+        "remove 20"
+      ],
+      [
+        "en",
+        "remove 21"
+      ],
+      [
+        "en",
+        "remove 22"
+      ],
+      [
+        "en",
+        "remove 23"
+      ],
+      [
+        "en",
+        "remove 24"
+      ],
+      [
+        "en",
+        "remove 25"
+      ],
+      [
+        "en",
+        "remove 26"
+      ],
+      [
+        "en",
+        "remove 27"
+      ],
+      [
+        "en",
+        "remove 28"
+      ],
+      [
+        "en",
+        "remove 29"
+      ],
+      [
+        "en",
+        "remove 30"
+      ],
+      [
+        "en",
+        "remove 31"
+      ],
+      [
+        "en",
+        "remove 32"
+      ],
+      [
+        "en",
+        "remove 33"
+      ],
+      [
+        "en",
+        "remove 34"
+      ],
+      [
+        "en",
+        "remove 35"
+      ],
+      [
+        "en",
+        "remove 36"
+      ],
+      [
+        "en",
+        "remove 37"
+      ],
+      [
+        "en",
+        "remove 38"
+      ],
+      [
+        "en",
+        "remove 39"
+      ],
+      [
+        "en",
+        "remove 40"
+      ],
+      [
+        "en",
+        "remove 41"
+      ],
+      [
+        "en",
+        "remove 42"
+      ],
+      [
+        "en",
+        "remove 43"
+      ],
+      [
+        "en",
+        "remove 44"
+      ],
+      [
+        "en",
+        "remove 45"
+      ],
+      [
+        "en",
+        "remove 46"
+      ],
+      [
+        "en",
+        "remove 47"
+      ],
+      [
+        "en",
+        "remove 48"
+      ],
+      [
+        "en",
+        "remove 49"
+      ],
+      [
+        "en",
+        "remove 50"
+      ],
+      [
+        "en",
+        "remove 51"
+      ],
+      [
+        "en",
+        "remove 52"
+      ],
+      [
+        "en",
+        "remove 53"
+      ],
+      [
+        "en",
+        "remove 54"
+      ],
+      [
+        "en",
+        "remove 55"
+      ],
+      [
+        "en",
+        "remove 56"
+      ],
+      [
+        "en",
+        "remove 57"
+      ],
+      [
+        "en",
+        "remove 58"
+      ],
+      [
+        "en",
+        "remove 59"
+      ],
+      [
+        "en",
+        "remove 60"
+      ],
+      [
+        "en",
+        "remove 61"
+      ],
+      [
+        "en",
+        "remove 62"
+      ],
+      [
+        "en",
+        "remove 63"
+      ],
+      [
+        "en",
+        "remove 64"
+      ],
+      [
+        "en",
+        "remove 65"
+      ],
+      [
+        "en",
+        "remove 66"
+      ],
+      [
+        "en",
+        "remove 67"
+      ],
+      [
+        "en",
+        "remove 68"
+      ],
+      [
+        "en",
+        "remove 69"
+      ],
+      [
+        "en",
+        "remove 70"
+      ],
+      [
+        "en",
+        "remove 71"
+      ],
+      [
+        "en",
+        "remove 72"
+      ],
+      [
+        "en",
+        "remove 73"
+      ],
+      [
+        "en",
+        "remove 74"
+      ],
+      [
+        "en",
+        "remove 75"
+      ],
+      [
+        "en",
+        "remove 76"
+      ],
+      [
+        "en",
+        "remove 77"
+      ],
+      [
+        "en",
+        "remove 78"
+      ],
+      [
+        "en",
+        "remove 79"
+      ],
+      [
+        "en",
+        "remove 80"
+      ],
+      [
+        "en",
+        "remove 81"
+      ],
+      [
+        "en",
+        "remove 82"
+      ],
+      [
+        "en",
+        "remove 83"
+      ],
+      [
+        "en",
+        "remove 84"
+      ],
+      [
+        "en",
+        "remove 85"
+      ],
+      [
+        "en",
+        "remove 86"
+      ],
+      [
+        "en",
+        "remove 87"
+      ],
+      [
+        "en",
+        "remove 88"
+      ],
+      [
+        "en",
+        "remove 89"
+      ],
+      [
+        "en",
+        "remove 90"
+      ],
+      [
+        "en",
+        "remove 91"
+      ],
+      [
+        "en",
+        "remove 92"
+      ],
+      [
+        "en",
+        "remove 93"
+      ],
+      [
+        "en",
+        "remove 94"
+      ],
+      [
+        "en",
+        "remove 95"
+      ],
+      [
+        "en",
+        "remove 96"
+      ],
+      [
+        "en",
+        "remove 97"
+      ],
+      [
+        "en",
+        "remove 98"
+      ],
+      [
+        "en",
+        "remove 99"
+      ],
+      [
+        "en",
+        "remove 100"
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner",
+      "entityPreffix": "%",
+      "entitySuffix": "%"
+    },
+    "rules": {}
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {}
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {}
+}

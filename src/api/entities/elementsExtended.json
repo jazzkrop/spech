@@ -1,0 +1,11 @@
+[
+  { "origin": "container" },
+  { "origin": "row", "synonyms": ["row", "quarrel", "course", "rowing"] },
+  {
+    "origin": "column",
+    "synonyms": ["column", "pillar", "editorial", "tower", "col"]
+  },
+  { "origin": "button", "synonyms": ["button", "release", "clitoris"] },
+  { "origin": "input", "synonyms": ["input", "remark", "stimulation"] },
+  { "origin": "image" }
+]
