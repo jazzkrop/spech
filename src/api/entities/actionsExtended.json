@@ -17,5 +17,6 @@
     "synonyms": ["edit", "cut", "blue-pencil", "redact"]
   },
   { "origin": "update" },
-  { "origin": "delete", "synonyms": ["delete", "cancel", "remove", "take", "withdraw", "transfer"] }
+  { "origin": "delete", "synonyms": ["delete", "cancel", "remove", "take", "withdraw", "transfer"] },
+  {"origin":"clear"}
 ]

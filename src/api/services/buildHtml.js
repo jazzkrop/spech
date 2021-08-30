@@ -19,7 +19,10 @@ function buildHtml(buildedCommand) {
   template = template.filter(function (el) {
     return el != null
   })
-  if (buildedCommand.action == 'add') {
+  // console.log(buildedCommand)
+  if (buildedCommand.action == 'clear') {
+    template = []
+  } else if (buildedCommand.action == 'add') {
     let component = components[buildedCommand.element]
     if (!component) return undefined
     component['id'] = findFreeId(template)
