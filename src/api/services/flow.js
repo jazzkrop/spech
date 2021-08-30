@@ -16,3 +16,11 @@ recognizeCommand(command).then((result) => {
     buildHtml(result)
   })
 })
+
+// How to add new command
+// 1. Add to api/entities actions or elements
+// 2. node .\src\api\services\buildCommandsDataset.js
+// 3. write synonyms to api/entities extended for action/element if you need
+// 4. node .\src\api\services\trainEntities.js 
+// 5. node .\src\api\services\trainCommands.js
+// 6. in services/buildHtml.js write actions for your new command

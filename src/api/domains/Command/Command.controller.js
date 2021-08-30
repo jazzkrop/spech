@@ -26,8 +26,6 @@ class CommandController {
         res.status(200).send(JSON.stringify({html: buildHtml(result)}))
       })
     })
-    // Sending response
-    //status(httpStatus[200]).
   }
   downloadHtml(req,res) {
     res.sendFile(path.resolve(__dirname + generateHtmlFile()))
