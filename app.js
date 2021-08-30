@@ -7,9 +7,9 @@ const path = require('path')
 
 const app = express()
 
-//process.env.PORT || 
+//
 
-const port = '5000'
+const port = process.env.PORT || '5000'
 
 app.use(function (req, res, next) {
   // Website you wish to allow to connect
@@ -43,7 +43,6 @@ app.use(
   })
 )
 
-// app.use(express.text())
 app.use(express.json())
 
 app.use(cors())
