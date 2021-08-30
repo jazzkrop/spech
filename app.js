@@ -3,10 +3,13 @@ const fs = require('fs')
 const logger = require('./src/global/logger')
 const routesV1 = require('./src/api/domains/routes')
 const cors = require('cors')
+const path = require('path')
 
 const app = express()
 
-const port = process.env.PORT || '3000'
+//process.env.PORT || 
+
+const port = '5000'
 
 app.use(function (req, res, next) {
   // Website you wish to allow to connect
@@ -45,11 +48,6 @@ app.use(express.json())
 
 app.use(cors())
 
-
-// const router = express.Router()
-// router.get('/commands', function (req, res) {
-//   res.send('Birds home page')
-// })
 app.use('/api', routesV1)
 
 fs.writeFileSync('./src/api/jsonRes/modelOfHtml.json', "[]")
