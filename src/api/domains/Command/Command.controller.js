@@ -23,7 +23,7 @@ class CommandController {
       const commandType = result.classifications[0].intent
       
       commandMethodMap[commandType](str).then((result) => {
-        res.status(200).send({html: buildHtml(result)})
+        res.status(200).send(buildHtml(result))
       })
     })
   }
