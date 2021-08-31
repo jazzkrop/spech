@@ -24,3 +24,4 @@ recognizeCommand(command).then((result) => {
 // 4. node .\src\api\services\trainEntities.js 
 // 5. node .\src\api\services\trainCommands.js
 // 6. in services/buildHtml.js write actions for your new command
+// 7. Done

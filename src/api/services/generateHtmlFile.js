@@ -1,6 +1,7 @@
 const fs = require('fs')
 const json2html = require('node-json2html')
 
+// return path to generated html from json file 
 function generateHtmlFile() {
   const path = './src/api/jsonRes/result.html'
   const template = JSON.parse(
